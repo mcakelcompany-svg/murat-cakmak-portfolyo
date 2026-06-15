@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Murat Çakmak — Portfolyo</title>
+  <meta name="description" content="Murat Çakmak — Web geliştirici portfolyo sitesi. Beceriler, projeler, referanslar ve iletişim." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand">Murat&nbsp;Çakmak</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#projeler">Güncel Projeler</a>
+        <a href="#referanslar">Referanslar</a>
+        <a href="#iletisim" class="nav-cta">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">Web Geliştirici</p>
+        <h1 class="hero-title">Merhaba, ben <span>Murat Çakmak</span>.</h1>
+        <p class="hero-lead">
+          Modern, hızlı ve kullanıcı dostu web siteleri ve uygulamaları geliştiriyorum.
+          Temiz kod ve şık tasarımı bir araya getirmeyi seviyorum.
+        </p>
+        <div class="hero-actions">
+          <a href="#projeler" class="btn btn-primary">Projelerimi Gör</a>
+          <a href="#iletisim" class="btn btn-ghost">İletişime Geç</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Hakkımızda ===== -->
+    <section class="section reveal" id="hakkimizda">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-tag">01</span>
+          <h2>Hakkımızda</h2>
+          <p class="section-sub">Kısaca kim olduğum ve neler yapabildiğim.</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Birkaç yıldır web teknolojileri üzerine çalışıyorum. Frontend tarafında
+              modern arayüzler kurarken, backend tarafında ölçeklenebilir çözümler
+              geliştiriyorum. Detaylara önem verir, projeleri zamanında teslim ederim.
+            </p>
+            <p>
+              <em>(Bu metin yer tutucudur — kendi tanıtımınla değiştirebilirsin.)</em>
+            </p>
+
+            <h3 class="mini-title">Becerilerim</h3>
+            <ul class="skills">
+              <li>HTML5 &amp; CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Responsive Tasarım</li>
+              <li>Git &amp; GitHub</li>
+              <li>REST API</li>
+              <li>UI / UX</li>
+            </ul>
+          </div>
+
+          <div class="about-timeline">
+            <h3 class="mini-title">Deneyim</h3>
+            <ol class="timeline">
+              <li>
+                <span class="tl-date">2023 — Günümüz</span>
+                <span class="tl-role">Frontend Geliştirici</span>
+                <span class="tl-desc">Şirket / Freelance — modern web arayüzleri.</span>
+              </li>
+              <li>
+                <span class="tl-date">2021 — 2023</span>
+                <span class="tl-role">Web Geliştirici</span>
+                <span class="tl-desc">Kurumsal siteler ve uygulamalar.</span>
+              </li>
+              <li>
+                <span class="tl-date">2020 — 2021</span>
+                <span class="tl-role">Junior Geliştirici</span>
+                <span class="tl-desc">İlk projeler ve öğrenme süreci.</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Güncel Projeler ===== -->
+    <section class="section section-alt reveal" id="projeler">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-tag">02</span>
+          <h2>Güncel Projeler</h2>
+          <p class="section-sub">Son dönemde üzerinde çalıştığım örnek işler.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card project">
+            <h3>E-Ticaret Arayüzü</h3>
+            <p>Sepet, ürün filtreleme ve responsive tasarım içeren modern bir mağaza arayüzü.</p>
+            <ul class="tags">
+              <li>React</li><li>CSS</li><li>REST API</li>
+            </ul>
+            <div class="card-links">
+              <a href="#" class="link">Demo</a>
+              <a href="#" class="link">Kaynak</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Blog Platformu</h3>
+            <p>Yazı yönetimi ve kategori desteği olan hafif, hızlı bir blog uygulaması.</p>
+            <ul class="tags">
+              <li>JavaScript</li><li>Node.js</li>
+            </ul>
+            <div class="card-links">
+              <a href="#" class="link">Demo</a>
+              <a href="#" class="link">Kaynak</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Landing Page</h3>
+            <p>Bir ürün tanıtımı için tasarlanmış dönüşüm odaklı tek sayfa.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>Animasyon</li>
+            </ul>
+            <div class="card-links">
+              <a href="#" class="link">Demo</a>
+              <a href="#" class="link">Kaynak</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Dashboard Paneli</h3>
+            <p>Grafikler ve tablolarla veri görselleştiren yönetim paneli arayüzü.</p>
+            <ul class="tags">
+              <li>React</li><li>Chart</li>
+            </ul>
+            <div class="card-links">
+              <a href="#" class="link">Demo</a>
+              <a href="#" class="link">Kaynak</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Referanslar ===== -->
+    <section class="section reveal" id="referanslar">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-tag">03</span>
+          <h2>Referanslar</h2>
+          <p class="section-sub">Birlikte çalıştığım kişilerin yorumları.</p>
+        </header>
+
+        <div class="cards">
+          <figure class="card quote">
+            <blockquote>“Murat ile çalışmak çok keyifliydi. İşini zamanında ve titizlikle teslim etti.”</blockquote>
+            <figcaption>
+              <span class="q-name">Ayşe Y.</span>
+              <span class="q-role">Proje Yöneticisi</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card quote">
+            <blockquote>“Teknik bilgisi güçlü, iletişimi net. Tekrar çalışmak isteriz.”</blockquote>
+            <figcaption>
+              <span class="q-name">Mehmet K.</span>
+              <span class="q-role">Şirket Sahibi</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card quote">
+            <blockquote>“İstediğimiz tasarımı beklentimizin üzerinde hayata geçirdi.”</blockquote>
+            <figcaption>
+              <span class="q-name">Zeynep D.</span>
+              <span class="q-role">Pazarlama Uzmanı</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== İletişim ===== -->
+    <section class="section section-alt reveal" id="iletisim">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-tag">04</span>
+          <h2>İletişim</h2>
+          <p class="section-sub">Bir projen mi var? Bana ulaş.</p>
+        </header>
+
+        <div class="contact">
+          <a class="contact-item" href="tel:+902124444444">
+            <span class="contact-label">Telefon</span>
+            <span class="contact-value">0212 444 44 44</span>
+          </a>
+          <a class="contact-item" href="mailto:mcakelcompany@gmail.com">
+            <span class="contact-label">E-posta</span>
+            <span class="contact-value">mcakelcompany@gmail.com</span>
+          </a>
+          <a class="contact-item" href="https://instagram.com/bymurat" target="_blank" rel="noopener">
+            <span class="contact-label">Instagram</span>
+            <span class="contact-value">@bymurat</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Murat Çakmak</p>
+      <a href="https://instagram.com/bymurat" target="_blank" rel="noopener" class="footer-ig">
+        Instagram: @bymurat
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

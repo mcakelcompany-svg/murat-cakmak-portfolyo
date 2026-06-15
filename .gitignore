@@ -1,0 +1,6 @@
+# Yerel önizleme araçları (siteyi etkilemez)
+.claude/
+
+# Sistem dosyaları
+Thumbs.db
+.DS_Store
